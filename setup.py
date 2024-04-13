@@ -7,5 +7,4 @@ setup(
     author='Victor Rasmussen',
     description='This package contains useful functions for working with Python, including basic console text formatting and other useful utilities.',
     url='https://github.com/Revo1999/vrashelper',
-    install_requires='os'
 )
