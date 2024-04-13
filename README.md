@@ -20,7 +20,7 @@ pip install git+https://github.com/Revo1999/vrashelper
 To use this package, you can simply import the functions and classes you need into your Python scripts:
 
 ```python
-import vrashelper
+import vrashelper as vh
 
 # Example usage
 work_here()
