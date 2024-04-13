@@ -10,11 +10,9 @@ import os
 import inspect
 
 def work_here():
-        calling_frame = inspect.stack()[1]  # Get frame info of caller
+        calling_frame = inspect.stack()[1]  # Get location of where the function is called from and changes directory to it
         calling_dir = os.path.abspath(os.path.dirname(calling_frame.filename))
         os.chdir(calling_dir)
-
-
 
 class colorbank:
     default = '\033[0m'
