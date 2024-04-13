@@ -7,12 +7,17 @@ Author: Victor Rasmussen
 '''
 
 import os
-
+import inspect
 
 def work_here():
     current_dir = os.getcwd()  # Store current working directory
-    calling_dir = os.path.abspath(os.path.curdir)  # Get directory from which the script is called
-    os.chdir(calling_dir)
+    try:
+        calling_frame = inspect.stack()[1]  # Get frame info of caller
+        calling_dir = os.path.abspath(os.path.dirname(calling_frame.filename))
+        os.chdir(calling_dir)
+        # Now the working directory is changed to the directory from which the function is called
+    finally:
+        os.chdir(current_dir)  # Restore original working directory
 
 
 
