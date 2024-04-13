@@ -23,7 +23,7 @@ To use this package, you can simply import the functions and classes you need in
 import vrashelper as vh
 
 # Example usage
-work_here()
+vh.work_here()
 print(vh.colorbank.hackergreen + "Hello, world!" + vh.colorbank.default)
 print(vh.ctext.bold + "This text is bold." + vh.ctext.default)
 ```
