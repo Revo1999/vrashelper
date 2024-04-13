@@ -10,9 +10,11 @@ import os
 
 
 def work_here():
-    absolute_path = os.path.abspath(__file__)
-    directory_name = os.path.dirname(absolute_path)
-    os.chdir(directory_name)
+    current_dir = os.getcwd()  # Store current working directory
+    calling_dir = os.path.abspath(os.path.curdir)  # Get directory from which the script is called
+    os.chdir(calling_dir)
+
+
 
 
 class colorbank:
