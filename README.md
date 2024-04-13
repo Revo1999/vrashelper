@@ -1,4 +1,4 @@
-### <font color="green"> VRas Helper </font>
+# VRas Helper
 
 This package contains useful functions for working with Python, including basic console text formatting and other useful utilities.
 
