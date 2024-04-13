@@ -5,6 +5,6 @@ setup(
     version='0.1',
     packages=find_packages(),
     author='Victor Rasmussen',
-    description='Primarely Quality of life stuff for console text',
+    description='This package contains useful functions for working with Python, including basic console text formatting and other useful utilities.',
     url='https://github.com/Revo1999/vrashelper',
 )
