@@ -24,8 +24,8 @@ import vrashelper
 
 # Example usage
 work_here()
-print(colorbank.hackergreen + "Hello, world!" + colorbank.default)
-print(ctext.bold + "This text is bold." + ctext.default)
+print(vh.colorbank.hackergreen + "Hello, world!" + vh.colorbank.default)
+print(vh.ctext.bold + "This text is bold." + vh.ctext.default)
 ```
 
 ## To uninstall
