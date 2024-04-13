@@ -27,3 +27,9 @@ work_here()
 print(colorbank.hackergreen + "Hello, world!" + colorbank.default)
 print(ctext.bold + "This text is bold." + ctext.default)
 ```
+
+## To uninstall
+
+```bash
+pip uninstall vrashelper
+```

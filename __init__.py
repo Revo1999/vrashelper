@@ -1,4 +1,4 @@
 VERSION = '0.1'
-AUTHOR = 'John Doe'
+AUTHOR = 'Victor Rasmussen'
 
-from . import helper
+from .helper import work_here, colorbank, ctext
